@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "fae701a8-d762-48f4-8e61-e0212ce1ac91",
+		"name": "CodeChallengeApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \":teste@gmail.com\",\n    \"password\": \"password\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://private-d71e65-enoccodechallenge.apiary-mock.com/sessions/new",
+					"protocol": "https",
+					"host": [
+						"private-d71e65-enoccodechallenge",
+						"apiary-mock",
+						"com"
+					],
+					"path": [
+						"sessions",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get user info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://private-d71e65-enoccodechallenge.apiary-mock.com/users/userid",
+					"protocol": "https",
+					"host": [
+						"private-d71e65-enoccodechallenge",
+						"apiary-mock",
+						"com"
+					],
+					"path": [
+						"users",
+						"userid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update avatar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://private-d71e65-enoccodechallenge.apiary-mock.com/users/userid/avatar",
+					"protocol": "https",
+					"host": [
+						"private-d71e65-enoccodechallenge",
+						"apiary-mock",
+						"com"
+					],
+					"path": [
+						"users",
+						"userid",
+						"avatar"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

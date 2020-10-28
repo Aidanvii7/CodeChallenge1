@@ -1,0 +1,2 @@
+Normally I would move this package to it's own library module, but for the sake of simplicity I've kept it all in a single module.
+This package needs work, it's not well structured. It needs some extra layers of abstraction.

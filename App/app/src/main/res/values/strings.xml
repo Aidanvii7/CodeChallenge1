@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Code Challenge</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="take_photo">Take photo</string>
+    <string name="from_gallery">From gallery</string>
+    <string name="cancel">Cancel</string>
+</resources>
