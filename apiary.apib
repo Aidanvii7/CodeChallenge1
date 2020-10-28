@@ -1,0 +1,66 @@
+FORMAT: 1A
+HOST: https://polls.apiblueprint.org/
+
+# Code Challenge API
+
+## Authentication [/sessions/new]
+
+### Request the user's ID and session token [POST]
+
++ Request (application/json)
+
+        {
+            "email": "aidan.vii@gmail.com",
+            "password": "password"
+        }
+
++ Response 200 (application/json)
+
+        {
+            "userid": "aidan.mcwilliams",
+            "token": "12345"
+        }
+
+
+## Users [/users/{userid}]
++ Parameters
+    + userid - the id of the user
+
+### Get the user's email and avatar URL [GET]
+
++ Request
+    + Headers
+
+            Authorization: Basic ABC123
+
++ Response 200 (application/json)
+
+        {
+            "email": "aidan.vii@gmail.com",
+            "avatar_url": ""
+        }
+        
+        
+## Users avatar [/users/{userid}/avatar]
+
++ Parameters
+    + userid - the id of the user
+
+### Update the user's avatar [POST]
+
++ Request
+    + Headers
+
+            Authorization: Basic ABC123
+
++ Request (application/json)
+
+        {
+            "avatar": "base64_encoded_data"
+        }
+
++ Response 200 (application/json)
+
+        {
+            "avatar_url": ""
+        }
