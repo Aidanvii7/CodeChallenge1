@@ -13,6 +13,7 @@
  
  ## Other
  - [Koin for dependency injection/service locator](https://insert-koin.io)
+ - [AndroidX Security for encrypted shared preferences](https://developer.android.com/jetpack/androidx/releases/security)
 
  
 ## Tools versions
