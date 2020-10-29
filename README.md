@@ -3,6 +3,7 @@
 ### UI/presentation related libraries
  - [Jetpack Compose + associated integration libraries](https://developer.android.com/jetpack/compose)
  - [AndroidX Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
+ - [Accompanist: Coil by Chris Banes](https://github.com/chrisbanes/accompanist/tree/main/coil)
 
 ### Network related libraries
  - [Retrofit2](https://square.github.io/retrofit/)
