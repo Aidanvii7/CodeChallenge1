@@ -54,7 +54,7 @@ object kotlinSdk {
 object buildPlugins {
 
     private object versions {
-        const val gradle = "4.2.0-alpha13"
+        const val gradle = "4.2.0-alpha15"
         const val junit5 = "1.6.2.0"
     }
 
