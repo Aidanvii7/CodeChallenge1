@@ -6,7 +6,7 @@
 
 ### Network related libraries
  - [Retrofit2](https://square.github.io/retrofit/)
- - OkHTTP3
+ - [OkHTTP3](https://square.github.io/okhttp/)
  - [Moshi + codegen](https://github.com/square/moshi)
  - [EitherNet (Slack)](https://github.com/slackhq/EitherNet)
  
