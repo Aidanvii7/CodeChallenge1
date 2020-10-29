@@ -16,7 +16,7 @@
 
  
 ## Tools versions
-Deveoped with Android Studio 4.2 Canary 11, most recently tested version is 4.2 Canary 15. **You will need 4.2 Canary 15 to build and run the project, you can find it [here](https://developer.android.com/studio/archive).**
+Developed with Android Studio 4.2 Canary 11, most recently tested version is 4.2 Canary 15. **You will need 4.2 Canary 15 to build and run the project, you can find it [here](https://developer.android.com/studio/archive).**
 
  
 ## High level architecture
