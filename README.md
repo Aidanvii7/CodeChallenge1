@@ -27,6 +27,7 @@ The app has 3 main screens: credentials, authenticating and user profile. Upon f
 ## Limitations, shortcomings and future improvements
  - Currently the image uploading mechanism does not work, this needs a bit if work to fix it.
  - The data layer of the app could be imporved upon by hiding the network calls behind data sources that the repository calls.
+ - The app is a single module (for simplicity mainly), however in a real world app it may be better to split certain parts/layers out into their own modules to reduce the chances of coupling between layers. I have another repository that attempts to do exactly this, however it results in a lot more boilerplate to get it off the ground. See the diagrams [here](https://github.com/Aidanvii7/MercariApp) for an example.
  - Most asynchronous tasks are scheduled on the GlobalScope's dispatcher, this means that when the user navigates back from the profile screen to credentials, any ongoing work (say image upload) is not cancelled. This could be definitely be imporved upon, however the best way forward is not clear in compose. In traditional apps each screen would be it's own fragment, with it's own ViewModel that keeps work scoped to that screen. This may improve in the future, perhaps with future releases of the [navigation component for Compose](https://developer.android.com/jetpack/compose/navigation).
  
 Please see the screenshots and apks folder.
