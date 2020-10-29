@@ -11,7 +11,7 @@
  - [EitherNet (Slack)](https://github.com/slackhq/EitherNet)
  
  ## Other
- - [Koin for dependency injection](https://insert-koin.io)
+ - [Koin for dependency injection/service locator](https://insert-koin.io)
 
  
 ## Tools versions
