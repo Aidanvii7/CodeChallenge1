@@ -1,14 +1,18 @@
 ## Tech stack
 
 ### UI/presentation related libraries
- - Jetpack Compose + associated integration libraries
- - AndroidX Lifecycle
+ - [Jetpack Compose + associated integration libraries](https://developer.android.com/jetpack/compose)
+ - [AndroidX Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
 ### Network related libraries
- - Retrofit2
+ - [Retrofit2](https://square.github.io/retrofit/)
  - OkHTTP3
- - Moshi + codegen
- - EitherNet (Slack)
+ - [Moshi + codegen](https://github.com/square/moshi)
+ - [EitherNet (Slack)](https://github.com/slackhq/EitherNet)
+ 
+ ## Other
+ - [Koin for dependency injection](https://insert-koin.io)
+
  
 ## Tools versions
 Deveoped with Android Studio 4.2 Canary 11, most recently tested version is 4.2 Canary 15. **You will need 4.2 Canary 15 to build and run the project, you can find it [here](https://developer.android.com/studio/archive).**
