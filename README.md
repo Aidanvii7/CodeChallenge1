@@ -1,11 +1,6 @@
-# CodeChallenge App
-
 ## Tech stack
 
-## Tools versions
-Deveoped with Android Studio 4.2 Canary 11, most recently tested version is 4.2 Canary 15. **You will need 4.2 Canary 15 to build and run the project, you can find it [here](https://developer.android.com/studio/archive).**
-
-## UI/presentation related libraries
+### UI/presentation related libraries
  - Jetpack Compose + associated integration libraries
  - AndroidX Lifecycle
 
@@ -15,7 +10,11 @@ Deveoped with Android Studio 4.2 Canary 11, most recently tested version is 4.2 
  - Moshi + codegen
  - EitherNet (Slack)
  
-### High level architecture
+## Tools versions
+Deveoped with Android Studio 4.2 Canary 11, most recently tested version is 4.2 Canary 15. **You will need 4.2 Canary 15 to build and run the project, you can find it [here](https://developer.android.com/studio/archive).**
+
+ 
+## High level architecture
 I wanted to implement the app using some form of unidirectional data flow model (as redux was mentioned in the spec). I looked into various third party libraries such as MvRx + Epoxy that seemed like a good fit for that, and also has some traction in the community. I'm largely unfamiliar with those libraries though, and after comparing them to Compose, I realized they were both going for a similar programming model. I eventually decided that Compose was a better fit as it allowed me to model almost the entire app state and navigation flow without having to bridge into traditional android components such as (multiple) activities and fragments. Having tried a Redux-like approach in the past within a traditional app (with fragments and androidX ViewModels), I learned that it was better suited to scoped parts of an application, i.e. each screen would have it's own state machine. This was a lot more manageable than having a single state machine for the entire application while trying to model navigation by bridging into traditional android navigation.
 
 ## The app itself
