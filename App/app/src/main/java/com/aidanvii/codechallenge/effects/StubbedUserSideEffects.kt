@@ -29,7 +29,6 @@ class StubbedUserSideEffects(
     override suspend fun handle(action: Action) {
         when (action) {
             is Action.Intent -> handle(action)
-            is Action.Result -> handle(action)
         }
     }
 
